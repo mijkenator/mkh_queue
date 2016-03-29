@@ -1,0 +1,16 @@
+{application, mkh_queue,
+ [{description, "FIFO queue application"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, { mkh_queue_app, []}},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {maintainers, []},
+  {licenses, []},
+  {links, []}
+ ]}.
